@@ -1,0 +1,98 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    padding: 10px;
+    background-color: #fdb8b8;
+}
+
+header{
+    padding: 10px;
+    background-color: rgb(218, 228, 135);
+    margin: 10px;
+    position: relative;
+}
+
+#headerplaceholder{
+    width: 13%; 
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 8px;
+}
+
+nav{
+    margin-inline-start : 450px;
+}
+
+nav ul{
+     margin-left: 10px;
+}
+
+nav ul li{ background-color: #868671;
+    display: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: #b9b6b6;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+section{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(129, 119, 221);
+}
+#placeholderfirstchild{
+    width: 100%;
+    padding: 20px;
+}
+
+.placeholder{
+    width: 30%;
+    margin: 10px;
+    margin-left: 25px;
+}
+#bottom{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+#placeholder400{
+    margin: 10px;
+    width: 50%;
+}
+#text{
+
+    text-align: justify;
+
+    width: 45%;
+    height: 340px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+    padding: 50px;
+}
+#text h3{
+    font-weight: bold;
+}
+#checksales{
+    color: rgb(196, 245, 124);
+    
+}
+#checksales a{
+    color: #868671;
+    text-decoration: none;
+    text-align: center;
+}
+    footer{
+    width: 100%;
+    background-color: rgb(134, 126, 126);
+    padding: 75px;
+}
